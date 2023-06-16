@@ -20,7 +20,7 @@ class employee{
     std::string position ;
     float salary1;
     public:
-    void salary(float sal=0, float inc=0 )
+    void salary(float sal=10000, float inc=12 )
     {
         salary1=sal+sal*(inc*0.01);
     }
@@ -43,7 +43,7 @@ int main()
     e3.SetPoistion("System analyst");
     e4.SetPoistion("Programmer");
 
-    // e1.salary(35000,9);
+    e1.salary();
     e2.salary(25000,10);
     e3.salary(24000,12);
     e4.salary(18000,12);
