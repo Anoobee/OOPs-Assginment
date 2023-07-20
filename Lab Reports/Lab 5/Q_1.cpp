@@ -65,7 +65,18 @@ public:
 int main()
 {   
     
+Cartesian c1(4,2) , c2(2,2), c3,c4, c5,c6;
+c3=Multiply(c1,c2);
+c4=Sub(c1,c2);
+c5=Added ::Add(c1,c2);
+c6=Divide(c1,c2);
 
+Display(c3);
+Display(c4);
+Display(c5);
+Display(c6);
+
+return 0;
 
 };
 

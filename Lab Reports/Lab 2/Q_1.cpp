@@ -14,7 +14,7 @@ void display()
     cout<<setw(2)<<setfill('0')<<month<<"/"<<setw(2)<<setfill('0')<<day<<"/"<<year<<endl;
 }
 
-} s;
+} ;
 int main()
 {
 Date d1;
